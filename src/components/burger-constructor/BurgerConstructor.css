@@ -1,0 +1,41 @@
+.constructor-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 76vh;
+}
+
+.unlocked-container {
+    width: 75vh;
+    height: 47vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow-y: scroll;
+    scrollbar-color: #8585ad #2f2f37;
+    scrollbar-width: thin;
+}
+
+.constructor-element {
+    flex-grow: 0;
+    background-color: #1c1c21;
+}
+
+.position-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.total-price-container {
+    display: flex;
+    gap: 50px;
+    align-self: flex-end;
+    align-items: center;
+}
+
+.total-price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
