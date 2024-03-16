@@ -1,0 +1,70 @@
+.constructor-container {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    scrollbar-color: #8585ad #2f2f37;
+    scrollbar-width: thin;
+
+}
+
+.constructor-container::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+}
+
+
+.menu div {
+    border-bottom: 0.5px solid white;
+}
+
+.menu div:first-child {
+    border-bottom: 0.5px solid #4c4cff;
+}
+
+.menu div p {
+    padding: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 275px;
+    text-align: center;
+}
+
+.cards {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.counter {
+    position: relative;
+    left: 100px;
+}
+
+.price-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sauces-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
